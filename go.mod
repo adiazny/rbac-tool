@@ -1,4 +1,4 @@
-module github.com/alcideio/rbac-tool
+module github.com/adiazny/rbac-tool
 
 go 1.22
 
