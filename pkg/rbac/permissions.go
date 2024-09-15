@@ -9,7 +9,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/klog"
 
-	"github.com/alcideio/rbac-tool/pkg/kube"
+	"github.com/adiazny/rbac-tool/pkg/kube"
 )
 
 type Permissions struct {

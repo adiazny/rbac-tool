@@ -6,12 +6,13 @@ import (
 	"fmt"
 	"os"
 	"regexp"
-	"sigs.k8s.io/yaml"
 	"sort"
 	"strings"
 
-	"github.com/alcideio/rbac-tool/pkg/kube"
-	"github.com/alcideio/rbac-tool/pkg/rbac"
+	"sigs.k8s.io/yaml"
+
+	"github.com/adiazny/rbac-tool/pkg/kube"
+	"github.com/adiazny/rbac-tool/pkg/rbac"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 	v1 "k8s.io/api/rbac/v1"

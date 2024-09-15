@@ -3,11 +3,12 @@ package analysis
 import (
 	"encoding/json"
 	"fmt"
-	v1 "k8s.io/api/rbac/v1"
 	"reflect"
 	"time"
 
-	"github.com/alcideio/rbac-tool/pkg/rbac"
+	v1 "k8s.io/api/rbac/v1"
+
+	"github.com/adiazny/rbac-tool/pkg/rbac"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/checker/decls"
 	"google.golang.org/protobuf/proto"

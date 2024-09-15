@@ -3,11 +3,12 @@ package visualize
 import (
 	"bytes"
 	"fmt"
+	"text/template"
+
 	"github.com/Masterminds/sprig"
-	"github.com/alcideio/rbac-tool/pkg/utils"
+	"github.com/adiazny/rbac-tool/pkg/utils"
 	"github.com/emicklei/dot"
 	"k8s.io/klog"
-	"text/template"
 )
 
 func GenerateOutput(filename string, format string, g *dot.Graph, legend *dot.Graph, opts *Opts) error {
@@ -80,7 +81,7 @@ func (r *HtmlReport) generateHeader() string {
 
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link nav-link-icon" href="https://github.com/alcideio/rbac-tool" target="_blank">
+							<a class="nav-link nav-link-icon" href="https://github.com/adiazny/rbac-tool" target="_blank">
 								<i class="fab fa-github"></i>
 								<span class="nav-link-inner--text">GitHub</span>
 							</a>

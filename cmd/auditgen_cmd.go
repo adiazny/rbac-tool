@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	auditutil "github.com/alcideio/rbac-tool/pkg/audit"
+	auditutil "github.com/adiazny/rbac-tool/pkg/audit"
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/spf13/cobra"
 	"k8s.io/apimachinery/pkg/util/errors"

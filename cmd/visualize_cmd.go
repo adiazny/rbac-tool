@@ -2,8 +2,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/alcideio/rbac-tool/pkg/utils"
-	"github.com/alcideio/rbac-tool/pkg/visualize"
+
+	"github.com/adiazny/rbac-tool/pkg/utils"
+	"github.com/adiazny/rbac-tool/pkg/visualize"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )

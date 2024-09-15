@@ -2,7 +2,8 @@ package visualize
 
 import (
 	"fmt"
-	"github.com/alcideio/rbac-tool/pkg/rbac"
+
+	"github.com/adiazny/rbac-tool/pkg/rbac"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 )

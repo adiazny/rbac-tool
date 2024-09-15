@@ -4,10 +4,11 @@ import (
 	"bytes"
 	goflag "flag"
 	"fmt"
-	"k8s.io/klog"
 	"os"
 
-	"github.com/alcideio/rbac-tool/cmd"
+	"k8s.io/klog"
+
+	"github.com/adiazny/rbac-tool/cmd"
 	"github.com/spf13/cobra"
 )
 
