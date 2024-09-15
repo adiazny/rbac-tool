@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alcideio/rbac-tool/pkg/kube"
-	"github.com/alcideio/rbac-tool/pkg/rbac"
-	"github.com/alcideio/rbac-tool/pkg/whoami"
+	"github.com/adiazny/rbac-tool/pkg/kube"
+	"github.com/adiazny/rbac-tool/pkg/rbac"
+	"github.com/adiazny/rbac-tool/pkg/whoami"
 	"github.com/kylelemons/godebug/pretty"
 	"github.com/spf13/cobra"
 )

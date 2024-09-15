@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/alcideio/rbac-tool/pkg/kube"
-	"github.com/alcideio/rbac-tool/pkg/rbac"
+	"github.com/adiazny/rbac-tool/pkg/kube"
+	"github.com/adiazny/rbac-tool/pkg/rbac"
 
 	"github.com/antonmedv/expr"
 	"github.com/olekukonko/tablewriter"

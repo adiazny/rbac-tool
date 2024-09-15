@@ -15,9 +15,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/klog"
 
-	"github.com/alcideio/rbac-tool/pkg/kube"
-	"github.com/alcideio/rbac-tool/pkg/rbac"
-	"github.com/alcideio/rbac-tool/pkg/utils"
+	"github.com/adiazny/rbac-tool/pkg/kube"
+	"github.com/adiazny/rbac-tool/pkg/rbac"
+	"github.com/adiazny/rbac-tool/pkg/utils"
 )
 
 func CreateRBACGraph(opts *Opts) error {

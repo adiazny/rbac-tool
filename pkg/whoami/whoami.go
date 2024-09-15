@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/alcideio/rbac-tool/pkg/kube"
+	"github.com/adiazny/rbac-tool/pkg/kube"
 	"github.com/kylelemons/godebug/pretty"
 	v1 "k8s.io/api/authentication/v1"
 	authz "k8s.io/api/authorization/v1"

@@ -1,12 +1,13 @@
 package analysis
 
 import (
-	"k8s.io/apimachinery/pkg/util/sets"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/alcideio/rbac-tool/pkg/rbac"
+	"k8s.io/apimachinery/pkg/util/sets"
+
+	"github.com/adiazny/rbac-tool/pkg/rbac"
 	v1 "k8s.io/api/rbac/v1"
 	"k8s.io/klog"
 )
